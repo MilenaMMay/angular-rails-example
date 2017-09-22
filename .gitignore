@@ -5,3 +5,19 @@ frontend/out-tsc
 
 # dependencies
 frontend/node_modules/
+
+# Ignore bundler config.
+api/.bundle
+api/vendor/bundle
+
+# Ignore the default SQLite database.
+api/db/*.sqlite3
+api/db/*.sqlite3-journal
+
+# Ignore all logfiles and tempfiles.
+api/log/*
+api/tmp/*
+!api/log/.keep
+!api/tmp/.keep
+
+api/.byebug_history
