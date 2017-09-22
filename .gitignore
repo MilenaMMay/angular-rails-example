@@ -1,3 +1,6 @@
+# IDE
+.idea/
+
 # compiled output
 frontend/dist
 frontend/tmp
@@ -21,3 +24,4 @@ api/tmp/*
 !api/tmp/.keep
 
 api/.byebug_history
+
